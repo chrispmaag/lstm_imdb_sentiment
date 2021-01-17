@@ -24,7 +24,7 @@ We can then evaluate the model on random reviews from Rotten Tomatoes. The model
 ![negative2](https://github.com/chrispmaag/lstm_imdb_sentiment/blob/main/images/negative2.jpg)
 
 It also correctly predicts positive sentiment for the following reviews:
-![positive1](https://github.com/chrispmaag/lstm_imdb_sentiment/blob/main/images/postive1.jpg)
+![positive1](https://github.com/chrispmaag/lstm_imdb_sentiment/blob/main/images/positive1.jpg)
 ![positive2](https://github.com/chrispmaag/lstm_imdb_sentiment/blob/main/images/positive2.jpg)
 
 There is still opportunity to improve this model. The below review is a false negative, meaning the review was actually positive, but the model predicted a negative sentiment.
