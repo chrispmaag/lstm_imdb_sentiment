@@ -19,7 +19,9 @@ After training, our model gets an f1 score of 0.87.
 
 ![model_results](https://github.com/chrispmaag/lstm_imdb_sentiment/blob/main/images/model_results.jpg)
 
-We can then evaluate the model on random reviews from Rotten Tomatoes. The model correctly predicts negative sentiment for the following reviews:
+We can then evaluate the model on random reviews from Rotten Tomatoes. For each sample movie review, the model returns a raw prediction score (between 0 and 1) and a predicted class (negative or positive).
+
+The model correctly predicts negative sentiment for the following reviews:
 ![negative1](https://github.com/chrispmaag/lstm_imdb_sentiment/blob/main/images/negative1.jpg)
 ![negative2](https://github.com/chrispmaag/lstm_imdb_sentiment/blob/main/images/negative2.jpg)
 
